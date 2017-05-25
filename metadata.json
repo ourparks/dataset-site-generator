@@ -6,7 +6,7 @@
   "publisher-url": "http://ourparks.org.uk/",
   "keyword-1": "Free",
   "keyword-2": "Fitness",
-  "data-url": "http://ourparks.org.uk/getSessions",
+  "data-url": "https://ourparks.org.uk/getSessions",
   "created": "2016-09-16",
   "documentation-url": "https://github.com/ourparks/opendata",
   "rpde-version": "0.2.3",
