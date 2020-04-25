@@ -40,31 +40,47 @@
     <!-- JSON-LD conforming to Google Structured Data specification. -->
     <script type="application/ld+json">
     {
-      "@context" : "http://schema.org",
-      "@type" : "Dataset",
-      "name" : "Our Parks Classes",
-      "id": "http://data.ourparks.org.uk/",
+      "@context": [
+        "https://schema.org/",
+        "https://openactive.io/"
+      ],
+      "@type": "Dataset",
+      "@id": "http://data.ourparks.org.uk/",
       "url": "http://data.ourparks.org.uk/",
-      "description" : "Class data from the ourparks.org.uk site; published using OpenActive RPDE v0.2.3.",
+      "name": "Our Parks Classes",
+      "description": "Class data from the ourparks.org.uk site; published using OpenActive RPDE v0.2.3.",
       "keywords":[
-         "Free",
-         "Fitness",
-         "OpenActive"
+          "Free",
+          "Fitness",
+          "OpenActive"
       ],
       "license" : "https://creativecommons.org/licenses/by/4.0/",
-      "distribution" : {
-        "@type" : "DataDownload",
-        "encodingFormat" : "application/vnd.openactive.rpde+json; version=0.2.3",
-        "contentUrl" : "https://ourparks.org.uk/getSessions"
-      },
-      "inLanguage": "en-GB",
+      "distribution": [
+        {
+          "@type" : "DataDownload",
+          "encodingFormat" : "application/vnd.openactive.rpde+json; version={rpdeversion}",
+          "contentUrl" : "https://ourparks.org.uk/getSessions"
+        }
+      ],
+      "discussionUrl": "https://github.com/ourparks/opendata/issues",
+      "documentation": "https://github.com/ourparks/opendata",
+      "inLanguage": [
+        "en-GB"
+      ],
       "publisher": {
-         "@type": "Organization", 
-         "name": "Our Parks",
-         "url": "http://ourparks.org.uk/",
-         "logo": "http://data.ourparks.org.uk/images/logo.png"
+        "@type": "Organization",
+        "name": "Our Parks",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "http://data.ourparks.org.uk/images/logo.png"
+        },
+        "url": "http://ourparks.org.uk/"
       },
-      "datePublished" : "2016-09-16T00:00:00.000Z"
+      "datePublished": "2016-09-16T00:00:00.000Z",
+      "backgroundImage": {
+        "@type": "ImageObject",
+        "url": "http://data.ourparks.org.uk/images/bg.jpg"
+      }
     }
     </script>
   </head>
