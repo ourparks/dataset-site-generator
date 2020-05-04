@@ -1,21 +1,22 @@
 {
-  "dataset-site-url": "http://data.ourparks.org.uk/",
+  "dataset-site-url": "https://ourparks.org.uk/openactive",
   "title": "Our Parks Classes",
   "description": "Class data from the ourparks.org.uk site",
   "publisher-name": "Our Parks",
   "publisher-url": "http://ourparks.org.uk/",
   "keyword-1": "Free",
   "keyword-2": "Fitness",
-  "data-url": "https://ourparks.org.uk/getSessions",
+  "data-url": "https://ourparks.org.uk/api/events",
   "created": "2016-09-16",
   "documentation-url": "https://github.com/ourparks/opendata",
-  "rpde-version": "0.2.3",
+  "rpde-version": "1.0.0",
   "license-name": "Creative Commons Attribution Licence (CC-BY v4.0)",
   "license-url": "https://creativecommons.org/licenses/by/4.0/",
   "attribution-text": "Our Parks",
-  "attribution-url": "http://data.ourparks.org.uk/",
+  "attribution-url": "https://ourparks.org.uk/openactive",
   "mailchimp": "require([\"mojo/signup-forms/Loader\"], function(L) { L.start({\"baseUrl\":\"mc.us3.list-manage.com\",\"uuid\":\"6a0e23ea5759f38bc867ca3cf\",\"lid\":\"f635a4cab2\"}) })",
   "copyright-notice": "",
   "odi-certificate-number": "",
-  "publish": true
+  "publish": true,
+  "redirect": true
 }
